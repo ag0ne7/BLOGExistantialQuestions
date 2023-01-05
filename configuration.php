@@ -8,10 +8,10 @@ $SMARTY = (array) array(
 );
 
 $DATABASE = (array) array(
-    'hostname' => '127.0.0.1',
+    'hostname' => '',
     'database_name' => 'blog',
-    'username' => 'fabien',
-    'password' => 'Conn@isseurs_pr@lines'
+    'username' => '',
+    'password' => ''
 );
 
 ?>
