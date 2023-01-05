@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Please\ write\ me\ a\ song.ttf";
+    src: url("./../font/Please\ write\ me\ a\ song.ttf");
+}
+
+body {
+    background-color: rgb(255, 252, 248);
+}
+
+h2 {
+    font-family: "Please\ write\ me\ a\ song.ttf";
+    font-size: 5em;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+h3 {
+    font-family: "Please\ write\ me\ a\ song.ttf";
+    font-size: 2em;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+nav {
+    margin-top: 2%;
+    margin-bottom: 3%;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    border-color:rgb(174, 90, 0);
+}
+
+a {
+    color: rgb(174, 90, 0);
+}
+
+/* Remplacement de la couleur du survolement d'un lien */
+a.next:hover {
+    color: rgb(0, 0, 0);
+}
+
+/* Ajout de bordures orange */
+div div.contours {
+    border: solid;
+    border-color:rgb(174, 90, 0);
+}
+
+/* changement des boutons de Bootstrap 5 */
+.btn-outline-light, .btn-outline-light:hover, .btn-outline-light:active, .btn-outline-light:visited {
+    background-color: rgb(255, 239, 220) !important;
+    color:rgb(174, 90, 0);
+    border-color: rgb(174, 90, 0);
+}
+
+/* Changement du bouton "voir tous les articles" sur la page principale */
+a.bgarticles {
+    background-color: rgb(255, 252, 248) !important;
+    color:rgb(174, 90, 0);
+    border-color: rgb(174, 90, 0);
+}
+
+/* Changement du bouton du formulaire de commentaire dans un article */
+form button {
+    background-color: rgb(255, 239, 220) !important;
+    color:rgb(174, 90, 0);
+    border-color: rgb(174, 90, 0);
+}
+
+/* Ajout d'une bordure basse pour différencier l'article d'un commentaire */
+div.artbb {
+    border-bottom: solid 1px;
+    border-color: rgb(174, 90, 0);
+    margin-bottom: 3%;
+}
+
+/* Changement de police dans le footer */
+footer div div.infoot {
+    font-family: "Please\ write\ me\ a\ song.ttf";
+    font-size: 2em;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+footer {
+    border-top: solid 1px;
+    border-color:rgb(174, 90, 0);
+}
